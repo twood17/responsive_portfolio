@@ -235,6 +235,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+  /* Attachs the header to the top left and centers text */
   header {
     top: 0;
     left: 0;
@@ -243,7 +244,7 @@ input[type=submit] {
   #logo {
     width: 100%;
   }
-  #web_links {
-     clear: both;
+  .web_links {
+     /* Need to align the links in mobile format.  */
   }
 }
